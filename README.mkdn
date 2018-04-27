@@ -1,0 +1,41 @@
+LineageOS
+===========
+
+Getting Started
+---------------
+
+To get started with Android/LineageOS, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the LineageOS trees, use a command like this:
+
+    repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+
+Then to sync up:
+
+    repo sync
+	
+Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for further building instructions.
+
+
+Building for Xiaomi Redmi 4A
+---------------
+
+To add sources for Xiaomi Redmi 4A:
+
+    mkdir -p .repo/local_manifests
+	wget https://raw.githubusercontent.com/redmidevs/android_manifest/rolex/roomservice.xml -O .repo/local_manifests/roomservice.xml
+
+Then to sync up:
+
+    repo sync
+
+To build:
+
+    . build/envsetup.sh
+    brunch rolex
+
+Building for Xiaomi Redmi 5A
+---------------
+
+    Comming soon!
