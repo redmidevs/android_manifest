@@ -38,4 +38,16 @@ To build:
 Building for Xiaomi Redmi 5A
 ---------------
 
-    Comming soon!
+To add sources for Xiaomi Redmi 5A:
+
+    mkdir -p .repo/local_manifests
+	wget https://raw.githubusercontent.com/redmidevs/android_manifest/riva/roomservice.xml -O .repo/local_manifests/roomservice.xml
+
+Then to sync up:
+
+    repo sync
+
+To build:
+
+    . build/envsetup.sh
+    brunch riva
