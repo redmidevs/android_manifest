@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="redmidevs/android_device_xiaomi_rolex" path="device/xiaomi/rolex" remote="github" revision="lineage-15.1" />
-  <project name="redmidevs/android_device_xiaomi_msm8917-common" path="device/xiaomi/msm8917-common" remote="github" revision="lineage-15.1" />
   <project name="redmidevs/android_kernel_xiaomi_msm8917" path="kernel/xiaomi/msm8917" remote="github" revision="lineage-15.1" />
   <project name="redmidevs/android_vendor_xiaomi_rolex" path="vendor/xiaomi/rolex" remote="github" revision="lineage-15.1" />
-  <project name="redmidevs/android_vendor_xiaomi_msm8917-common" path="vendor/xiaomi/msm8917-common" remote="github" revision="lineage-15.1" />
 </manifest>
